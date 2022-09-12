@@ -1,33 +1,321 @@
 <!DOCTYPE html>
 <html lang="en">
- <head>
+<head>
   <meta charset="UTF-8">
-  <title>My Hometown</title>
- </head>
- <body>
-  <h1 style="color: black; text-align: center;">Ekibastuz</h1>
-  <p style="text-align: center, justify"> &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;Ekibastuz is a town in Pavlodar Region, northeastern Kazakhstan. It is widely
-    known for coal mines and coal fired power plants. Nowadays, populations is over 150000 people.
-    <h4>&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;Ekibastuz from birds eye view, also somewhere on this photo my home</h4>
-    <p> &nbsp; &nbsp; &nbsp;&nbsp; &nbsp;<img src="https://24.kz/media/k2/items/cache/3965d2b081b15bc7bd752c95f3207726_XL.jpg" alt="Ekibastuz" width="600" height="300">
-    <h4>&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;Location on map</h4>
-    <p> &nbsp; &nbsp; &nbsp;&nbsp; &nbsp;<img src="https://i.im.ge/2022/08/28/ONy8dT.BEZ-IMENI.png" alt="Map of Kazakhstan" width="600" height="300">
-    <h4>&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;History</h4>
-        <p>&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;Firstly, it was established as village in 1899. It happened after Kosym Pshembayev was sent there to look for mineral resources in that region. Village was named after the nearby lake of same namewhich means 2 heads of salt in 
-            <br>&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;Kazakh (eki 'two' + bas 'head' + tuz 'salt'). The status of the "town" was given to Ekibastuz on July 12, 1957 by a decree of the Presidium of the Supreme Soviet of the Kazakh Soviet Socialist Republic. At that time the 
-            <br>&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;population of Ekibastuz was approximately 25,000 people.
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CSS Design</title>
+</head>
+<body>
+  <!-- HEADER -->
+  <header>
+    <div class="banner">Web Programming...</div>
+  </header>
+
+  <!-- Navbar -->
+  <nav>
+      <a class="logo" href="#">
+        <img src="logo.png" alt="logo" width="80px" height="80px">
+      </a>
+      <ul class="menu">
+        <li><a class="active" href="#task">Task</a></li>
+        <li><a href="#requirements">Requirements</a></li>
+        <li><a href="#submission">Submission</a></li>
+        <li><a href="#grading">Grading</a></li>
+        <li><a href="#deadline">Deadline</a></li>
+        <li><a href="#">SignIn</a></li>
+      </ul>
+    </nav>
+
+  <!-- Main Content -->
+  <section class="main_content">
+    <h1 id="main-heading" class="topic">
+      Lab 4 - Designing with CSS 
+    </h1>
+    <hr>
+    <article id="task">
+      <h2 >Task</h2>
+      <p>
+        <img src="nature.jpeg" alt="" width="300px" height="210">
+        As you have alredy learned in the last lecture, 
+        CSS is about the presentation of the documents
+        like HTML or XML.
+        So, in this lab assignment you need to form a group of two people and then together apply
+        CSS styling rules to make this template HTML file look
+        beautiful and interesting.  
+      </p>
+      <p>
+        There are no 
+        limits to what techniques you use and how you 
+        ultimately solve this task. 
+        However, there are some minimal requirements
+        which are explained in the next section below.
+        <a href="#requirements">Next...</a>
+      </p>
+    </article>
+    <article id="requirements">
+      <h2 >Requirements</h2>
+      <p>
+        
+        The main requirement for this task is to 
+        style this HTML document without any 
+        changes (including adding new and deleting the existing elements) to itself except for these cases: 
+        <ul>
+          <li>
+            You can add <strong>id</strong>
+            and <strong>class</strong> 
+            attributes to the ncessary elements. 
+            </li>
+            <li>
+            You can replace the 
+            images in the defined elements within this document with your
+            own ones. 
+            </li><li>
+            Notice that there is a place for a 
+            large banner on the top of the page,
+            you <strong>must</strong> place an image there only using CSS.
+            </li>
+            <li>
+              You <strong>must</strong> write your names in the specified fields below.
+            </li>
+            <li>You can change the location
+              of in the map below or replace it with the image.
+            </li>
+        </ul>
+      </p>
+      <p>
+        In your stylesheet you <strong>must</strong>
+         use these selectors:
+        <ul>
+          <li>Element selectors;</li>
+          <li>Class selectors;</li>
+          <li>Attribute selectors;</li>
+          <li>ID selectors.</li>
+          <li>Pseudo-class selectors.</li>
+        </ul>
+      </p>
+      <p>
+        Also, you <strong>must</strong> 
+        use the necessary CSS properties
+        and demonstrate the following changes
+        of the elements:
+        <ul>
+          <li>font and background colors;</li>
+          <li>font family and size;</li>
+          <li>margin, padding and borders;</li>
+          <li>image sizes (width and height);</li>
+          <li>text alignment (horizontal and vertical);</li>
+        </ul>
+        Additionally, a special focus <strong>must</strong> 
+        be done to the menu links.        
+        They need to change their status appropriately 
+        (active, hover, visited)
+        as well as be placed in a natural way,
+        i.e. horizontally or vertically. 
+        <a href="#submission">Next...</a>
+      </p>
+    </article>
+    <article id="submission">
+      <h2>Submission</h2>
+      <p>
+       As usual, you <strong>must</strong> submit 
+       your work via Github. All the files and images need to go to 
+       your <strong> <i>username.github.io</i> </strong>repository. 
+       Also, this page must be available 
+       through this domain name.
+      </p>
+      <h3>Group</h3>
+      <p>
+        Since this is a group project, i.e. a team of two members,
+        it is required to insert a photo of your group
+        in this <strong>&lt;img&gt;</strong> element and write your names in the
+        following list items. <br>
+         <img src="planets.jpeg" alt="" width="300px" height="210">
+
+        <ul>
+          <li>Full Name 1</li>
+          <li>Full Name 2</li>
+        </ul>
+        Also, to submit your group members, 
+        please fill in the this 
+        <a href="#">Google Sheet</a> form. 
+        <a href="#grading">  Next...</a>
+      </p>
+    </article>
+    <article id="grading">
+      <h2>Grading</h2>
+      For this assignment you will get 
+      <strong>80 points</strong>  in total.
+      The final score is the sum of the points 
+      for each of the criteria below.
+      This score will be the same for both 
+      of the team members.
+      <table>
+        <tr>
+          <th>Criteria</th>
+          <th>Points</th>
+        </tr>
+        <tr>
+          <td>Group is formed </td>
+          <td>10 pts</td>
+        </tr>
+        <tr>
+          <td>CSS file is linked to the document</td>
+          <td>5 pts</td>
+        </tr>
+        <tr>
+          <td>Banner image is present</td>
+          <td>5 pts</td>
+        </tr>
+        <tr>
+          <td>Menu is styles appropriately</td>
+          <td>5 pts</td>
+        </tr>
+        
+        <tr>
+          <td>Group photo is present </td>
+          <td>5 pts</td>
+        </tr>
+         <tr>
+          <td>HTML file is unchanged</td>
+          <td>5 pts</td>
+        </tr>
+        <tr>
+          <td>Required selectors are used</td>
+          <td>10 pts</td>
+        </tr>
+        <tr>
+          <td>Required CSS properties are used</td>
+          <td>10 pts</td>
+        </tr>
+        <tr>
+          <td>Website is available online</td>
+          <td>10 pts</td>
+        </tr>
+        <tr>
+          <td>Website looks nice and not broken</td>
+          <td>10 pts</td>
+        </tr>
+        <tr>
+          <td>Extra cool stuff is used</td>
+          <td>5 pts</td>
+        </tr>
+        </tr>
+      </table>
+    </article>
+  </section>
+
+  <!-- Aside Information -->
+  <aside>
+    <h3>Important</h3>
+    <section class="aside_content">
+      <article id="deadline">
+        <h4>Deadlines:</h4>
+        There are two deadlines - one for 
+        forming a group and the other is for the 
+        submission of the assignment itself.
+        <ul>
+          <li>Group: Sep. 9, 2022, 23:59</li>
+          <li>Submission: Sep. 18, 2022, 23:59</li>
+        </ul>
+        <p>
+        Missing the deadline for the group formation will result in 
+        <strong> not getting any points</strong> for the corresponding criteria. <br>
         </p>
-    <h4>&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;Industry</h4>
-        </p>&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;As said before, Ekibastuz is known because it is industrial town. The Vostochny Coal Mine company is located in Ekibastuz. Today Ekibastuz is the biggest open-cast coal field and one of the most perspective open-cast coal 
-            <br>&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;regions in the world. It contains more than 13 billion tons of coal in the area of 62 square kilometers. In other words, there are 74 million tons of coal per km³. Near Ekibastuz there are two coal fired power plants: GRES-1, with 
-            <br>&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;installed capacity of 4,000 MW, and GRES-2, with an installed capacity of 1,000 MW. GRES-2 has the tallest chimney in the world (419.7 m).The construction of GRES-2 was part of a Program for Ekibastuz coalfield
-            <br>&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;development, foreseeing to be built four thermal power plants, each one of 4,000 MW (8 units x 500 MWe). In years 1991–93 only Units No 1 and 2 were commissioned. The construction of Unit No 3 was started 1990 but later
-            <br>&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;stopped. From Ekibastuz to Kokshetau runs an overhead power line designed for a transmission voltage of 1,150 kV, the Ekibastuz-Kokshetau powerline. Located in a naturally arid area, the city of Ekibastuz and its industries are 
-            <br>&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;supplied with water primarily from the Irtysh River, via the Irtysh–Karaganda Canal, which passes about 10 km north of Ekibastuz, where a number of water reservoirs are located.
-    <h4>&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;World Records</h4>
-        </p>&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;People and places from our town broke some World Records and listed in the Guinness book of records. So to list them, I created one more <a href="world_records.html">page</a>
-    <h4>&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;Useful links</h4>
-    <p>&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;<a href="https://www.gov.kz/memleket/entities/pavlodar-ekibastuz?lang=ru">Govermental site of Ekibastuz akimat</a><p></p>
-  </p>
- </body>
-</html> 
+        <p>And, as usual, missing the deadline for submittion of your work will result in reduction of your score by 50%.</p>
+        
+        <a href="#">More...</a>
+      </article>
+      </section>
+     
+        <h3>Some Dummy Content</h3>
+       <section>
+        <article>
+        <h4>Article 1</h4>
+        <p>
+          Lorem ipsum dolor sit amet consectetur, 
+          adipisicing elit. Odit, fugiat eveniet! 
+          Optio quia perspiciatis earum ipsa dicta 
+          porro dolorum facere laudantium repellat 
+          ad necessitatibus asperiores dolor, molestias 
+          officiis corrupti iusto.
+          <a href="#">More...</a>
+        </p>
+      </article>
+      <article>
+        <h4>Article 2</h4>
+        <p>
+          Lorem ipsum dolor sit amet consectetur, 
+          adipisicing elit. Odit, fugiat eveniet! 
+          Optio quia perspiciatis earum ipsa dicta 
+          porro dolorum facere laudantium repellat 
+          ad necessitatibus asperiores dolor, molestias 
+          officiis corrupti iusto.
+          <a href="#">More...</a>
+        </p>
+      </article>
+      <article>
+        <h4>Article 3</h4>
+        <p>
+          Lorem ipsum dolor sit amet consectetur, 
+          adipisicing elit. Odit, fugiat eveniet! 
+          Optio quia perspiciatis earum ipsa dicta 
+          porro dolorum facere laudantium repellat 
+          ad necessitatibus asperiores dolor, molestias 
+          officiis corrupti iusto.
+          <a href="#">More...</a>
+        </p>
+      </article>
+    </section>
+  </aside>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="contacts">
+      <div >
+        <h5>Contacts</h5>
+        <p>
+          Nazarbayev University <br>
+          53 Kabanbay Batyr ave. <br>
+          Block 7, Room 7.422 <br>
+          Ph.: +7-7172-123-4567 <br>
+          <a href="mailto:info@naturallyinspired.com" class="email">
+            info@naturallyinspired.com
+          </a>
+        </p>
+      </div>
+      <div class="map">
+          <iframe src="https://maps.google.com/maps?q=Nazarbayev%20university,%20Nur-Sultan&t=&z=13&ie=UTF8&iwloc=&output=embed" 
+                  frameborder="0" scrolling="no" marginheight="0" marginwidth="0">
+          </iframe>
+      </div>
+    </div>
+    <div class="categories">
+      <h5>Top 10 Categories</h5>
+      <ul>
+        <li><a href="#">Category 1</a></li>
+        <li><a href="#">Category 2</a></li>
+        <li><a href="#">Category 3</a></li>
+        <li><a href="#">Category 4</a></li>
+        <li><a href="#">Category 5</a></li>
+        <li><a href="#">Category 6</a></li>
+        <li><a href="#">Category 7</a></li>
+        <li><a href="#">Category 8</a></li>
+        <li><a href="#">Category 9</a></li>
+        <li><a href="#">Category 10</a></li>
+      </ul>
+    </div>
+    <div class="quick_links">
+      <h5>Quick Links</h5>
+      <ul>
+        <li><a href="#">Item1</a></li>
+        <li><a href="#">Item2</a></li>
+        <li><a href="#">Item3</a></li>
+        <li><a href="#">Item4</a></li>
+        <li><a href="#">Item5</a></li>
+        <li><a href="#">Item6</a></li>
+      </ul>
+    </div>
+  </footer>
+</body>
+</html>
