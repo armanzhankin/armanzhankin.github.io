@@ -28,6 +28,10 @@ h1, h2, h3, h4, h5 {
     border: 3px dashed green
 }
 
+a:visited {
+    color : red
+}
+
 .contacts{
     text-align: right;
     margin-top: -5px;
@@ -47,6 +51,10 @@ h1, h2, h3, h4, h5 {
     margin-top: -276px;
 }
 
-a[href] {
-    color : green
+a: link {
+    color: green;
+}
+
+a[class="email"] {
+    color: brown;
 }
