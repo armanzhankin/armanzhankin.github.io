@@ -1,0 +1,52 @@
+
+.banner {
+    text-align: center;
+    background-image: url("https://png.pngtree.com/thumb_back/fw800/back_our/20190625/ourmid/pngtree-black-solid-material-banner-image_262525.jpg")
+}
+
+.logo {
+    margin: 900px; 
+}
+
+body {
+    background-color : #1d2228;
+    color : #e1e2e2;
+    margin: 7px;
+    padding: 15px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: large;
+}
+
+h1, h2, h3, h4, h5 {
+    color : #7da2a9
+}
+
+.menu {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15pt;
+    text-align: center;
+    border: 3px dashed green
+}
+
+.contacts{
+    text-align: right;
+    margin-top: -5px;
+}
+
+#grading {
+    color : #fb8122;
+    margin : 20pt
+}
+
+.categories {
+    margin-top: -350px;
+}
+
+.quick_links{
+    margin-left: 800px;
+    margin-top: -276px;
+}
+
+a[href] {
+    color : green
+}
