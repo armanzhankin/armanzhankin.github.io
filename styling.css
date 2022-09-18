@@ -35,6 +35,10 @@ a:visited {
     color : red
 }
 
+a:hover {
+    text-decoration: wavy;
+}
+
 .contacts{
     text-align: right;
     margin-top: -5px;
